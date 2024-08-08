@@ -33,4 +33,5 @@ JavaScript (for game logic and interactivity)
 
 link:https://animated-granita-90c696.netlify.app/
 
-![Screenshot (140)](https://github.com/user-attachments/assets/913df889-0e58-4928-bb85-acad752b803b)
+![Screenshot (141)](https://github.com/user-attachments/assets/885f834c-e791-4ff2-b652-1dc1caf68176)
+
