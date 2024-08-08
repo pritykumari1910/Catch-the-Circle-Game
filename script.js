@@ -1,7 +1,5 @@
-
-
 let score = 0;
-let timeLeft = 30;
+let timeLeft = 60; // Updated to 60 seconds
 let gameInterval;
 let clickTimer;
 const circle = document.getElementById('circle');
@@ -21,7 +19,7 @@ let hintMessages = [
 let hintIndex = 0;
 
 function startTimer() {
-    timeLeft = 30;
+    timeLeft = 60; // Set timer to 60 seconds
     timerDisplay.textContent = 'Time Left: ' + timeLeft + 's';
     gameInterval = setInterval(() => {
         timeLeft--;
@@ -92,7 +90,7 @@ resetButton.addEventListener('click', () => {
     scoreDisplay.textContent = 'Score: ' + score;
     gameOverDisplay.style.display = 'none';
     hintButton.textContent = 'Click on the circle to score points!';
-    timerDisplay.textContent = 'Time Left: 30s';
+    timerDisplay.textContent = 'Time Left: 60s'; // Reset timer display
     isGameOver = false;
     circle.style.animationDuration = '5s';
     circle.style.animationPlayState = 'running'; // Restart animation
@@ -104,4 +102,3 @@ resetButton.addEventListener('click', () => {
 hintButton.addEventListener('click', () => {
     updateHint(); // Update hint on button click
 });
-
